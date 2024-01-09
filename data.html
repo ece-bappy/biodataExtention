@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Add Data - Hello World Extension</title>
+    <style>
+      body {
+        width: 300px;
+        padding: 10px;
+      }
+
+      .addFieldContainer {
+        margin-top: 10px;
+      }
+    </style>
+    <script src="data.js"></script>
+  </head>
+  <body>
+    <h2>Add Data</h2>
+    <form id="dataForm">
+      <label for="name">Name:</label>
+      <input type="text" id="name" name="name" required />
+      <br />
+
+      <!-- Container for dynamically added fields -->
+      <div class="addFieldContainer" id="addFieldContainer"></div>
+
+      <!-- Button to add more fields -->
+      <button type="button" id="addMoreFieldButton">Add More Field</button>
+      <br />
+
+      <button type="submit">Submit</button>
+    </form>
+  </body>
+</html>
