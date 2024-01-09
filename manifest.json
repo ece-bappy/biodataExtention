@@ -2,7 +2,7 @@
     "manifest_version": 3,
     "name": "Hello World Extension",
     "version": "1.0",
-    "description": "Simple extension that opens a side panel with 'Hello World'.",
+    "description": "Save Your Bio Data to fill forms",
     "permissions": ["activeTab"],
     "action": {
       "default_icon": {
